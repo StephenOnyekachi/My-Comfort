@@ -1,0 +1,53 @@
+
+const agentsData = [
+    {
+        id: 1,
+        name: "Emeka Okafor",
+        role: "Senior Property Agent",
+        location: "Awka, Anambra",
+        image: "/images/c1.png",
+        properties: 24,
+        rating: 4.9,
+        experience: "7 Years",
+        phone: "+234 801 234 5678",
+        verified: true,
+    },
+    {
+        id: 2,
+        name: "Chidinma Grace",
+        role: "Real Estate Consultant",
+        location: "Onitsha, Anambra",
+        image: "/images/c2.png",
+        properties: 31,
+        rating: 4.8,
+        experience: "5 Years",
+        phone: "+234 802 345 6789",
+        verified: true,
+    },
+    {
+        id: 3,
+        name: "Daniel Obi",
+        role: "Property Specialist",
+        location: "Nnewi, Anambra",
+        image: "/images/c3.png",
+        properties: 18,
+        rating: 4.7,
+        experience: "4 Years",
+        phone: "+234 803 456 7890",
+        verified: true,
+    },
+    {
+        id: 4,
+        name: "Blessing Eze",
+        role: "Residential Property Agent",
+        location: "Awka, Anambra",
+        image: "/images/c4.jpg",
+        properties: 27,
+        rating: 4.9,
+        experience: "6 Years",
+        phone: "+234 804 567 8901",
+        verified: true,
+    },
+]
+
+export default agentsData;

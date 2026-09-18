@@ -1,0 +1,22 @@
+# Frontend
+house agent frontend/node_modules/
+house agent frontend/dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+house agent backend/venv/
+house agent backend/__pycache__/
+house agent backend/**/*.pyc
+
+# Django
+house agent backend/db.sqlite3
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
