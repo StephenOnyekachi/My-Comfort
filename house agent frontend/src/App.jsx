@@ -17,6 +17,7 @@ import Sell from "./Components/User/Sell";
 import Rent from "./Components/User/Rent";
 import GetStarted from "./Components/User/GetStarted";
 import SignIn from "./Components/User/SignIn";
+import AgentProfile from "./Components/User/AgentProfile";
 
 // Admin Components
 import Dashboard from "./Components/Admin/Dashboard";
@@ -185,6 +186,11 @@ function App() {
           <Route
             path="/signin"
             element={<SignIn />}
+          />
+
+          <Route
+            path="/agent/:id"
+            element={<AgentProfile />}
           />
 
           {/* ============================================
