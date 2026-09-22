@@ -174,7 +174,7 @@ function SignIn() {
                                 sm:text-lg
                             "
                         >
-                            Sign in to continue to House Agent.
+                            Sign in to continue to My Comfort.
                         </p>
 
                     </div>
@@ -537,7 +537,7 @@ function SignIn() {
                             sm:text-sm
                         "
                     >
-                        © 2026 House Agent. Find a home that fits your life.
+                        © {new Date().getFullYear()} My Comfort. Find a home that fits your life.
                     </p>
 
                 </div>

@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -47,7 +48,7 @@ function Footer() {
                                 "
                             ></i>
 
-                            House Agent
+                            My Comfort
 
                         </Link>
 
@@ -336,7 +337,7 @@ function Footer() {
                                 ></i>
 
                                 <a
-                                    href="mailto:info@houseagent.com"
+                                    href="mailto:info@mycomfort.com"
                                     className="
                                         text-gray-400
                                         text-sm
@@ -346,7 +347,7 @@ function Footer() {
                                         break-all
                                     "
                                 >
-                                    info@houseagent.com
+                                    info@mycomfort.com
                                 </a>
 
                             </div>
@@ -530,7 +531,7 @@ function Footer() {
                             md:text-left
                         "
                     >
-                        © {new Date().getFullYear()} House Agent.
+                        © {new Date().getFullYear()} My Comfort.
                         All rights reserved.
                     </p>
 

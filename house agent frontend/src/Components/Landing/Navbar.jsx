@@ -157,7 +157,7 @@ function Navbar() {
                         group
                         shrink-0
                     "
-                    aria-label="ConnectFlow Homes home"
+                    aria-label="My Comfort Homes home"
                 >
 
                     <div
@@ -189,7 +189,7 @@ function Navbar() {
                                 roboto-condensed-bold
                             "
                         >
-                            ConnectFlow
+                            My Comfort
                         </h1>
 
                         <span
@@ -496,4 +496,3 @@ function Navbar() {
 }
 
 export default Navbar;
-

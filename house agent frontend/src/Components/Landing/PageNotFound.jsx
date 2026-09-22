@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 
 function PageNotFound() {
@@ -245,7 +246,7 @@ function PageNotFound() {
                                 sm:text-sm
                             "
                         >
-                            House Agent • Find a home that fits your life.
+                            My Comfort • Find a home that fits your life.
                         </p>
 
                     </div>

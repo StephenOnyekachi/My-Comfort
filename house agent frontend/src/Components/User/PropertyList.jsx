@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import housesData from "../housesData";
@@ -100,7 +101,7 @@ function PropertyList() {
                                 mb-3
                             "
                         >
-                            ConnectFlow Homes
+                            My Comfort Homes
                         </p>
 
                         <h1
@@ -136,7 +137,7 @@ function PropertyList() {
                                 leading-relaxed
                             "
                         >
-                            ConnectFlow Homes connects you to verified
+                            My Comfort Homes connects you to verified
                             houses in Anambra and across Nigeria.
                             No agent wahala.
                         </p>

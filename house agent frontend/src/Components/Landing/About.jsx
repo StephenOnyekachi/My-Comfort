@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 
 function About() {
@@ -80,7 +81,7 @@ function About() {
                                 <i className="fa fa-home text-green-400"></i>
 
                                 <span className="text-gray-300 text-sm sm:text-base">
-                                    About House Agent
+                                    About My Comfort
                                 </span>
 
                             </div>
@@ -129,7 +130,7 @@ function About() {
                                     max-w-3xl
                                 "
                             >
-                                House Agent connects people with verified
+                                My Comfort connects people with verified
                                 properties across Anambra and Nigeria,
                                 making it easier to buy, sell, and rent
                                 without unnecessary stress.
@@ -245,7 +246,7 @@ function About() {
 
                             <img
                                 src="/images/3.jpeg"
-                                alt="House Agent property"
+                                alt="My Comfort property"
                                 loading="lazy"
                                 className="
                                     w-full
@@ -341,7 +342,7 @@ function About() {
                                     slidetop
                                 "
                             >
-                                House Agent is designed to make the process
+                                My Comfort is designed to make the process
                                 of finding and managing property simpler.
                                 Whether you are looking for a place to live,
                                 selling your property, or searching for a
@@ -660,7 +661,7 @@ function About() {
 
                         <img
                             src="/images/4.jpeg"
-                            alt="Property"
+                            alt="My Comfort property"
                             loading="lazy"
                             className="
                                 absolute

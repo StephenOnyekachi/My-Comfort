@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -152,7 +153,7 @@ function GetStarted() {
                                     font-bold
                                 "
                             >
-                                House Agent
+                                My Comfort
                             </span>
 
                         </Link>
@@ -264,7 +265,7 @@ function GetStarted() {
                         {/* COPYRIGHT */}
 
                         <p className="text-sm text-gray-500">
-                            © {new Date().getFullYear()} House Agent.
+                            © {new Date().getFullYear()} My Comfort.
                             All rights reserved.
                         </p>
 
@@ -320,7 +321,7 @@ function GetStarted() {
                                         font-bold
                                     "
                                 >
-                                    House Agent
+                                    My Comfort
                                 </span>
 
                             </Link>
@@ -366,7 +367,7 @@ function GetStarted() {
 
 
                             <p className="mt-3 text-sm leading-6 text-gray-400 sm:text-base">
-                                Join House Agent and start finding your
+                                Join My Comfort and start finding your
                                 perfect property.
                             </p>
 

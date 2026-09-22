@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import housesData from "../housesData";
@@ -102,7 +103,7 @@ function Dashboard() {
                         >
                             <i className="fa fa-home text-green-500" />
 
-                            <span>House Agent</span>
+                            <span>My Comfort</span>
                         </Link>
 
                     </div>
@@ -640,7 +641,7 @@ function Dashboard() {
                                     "
                                 >
                                     <i className="fa fa-home" />
-                                    House Agent Dashboard
+                                    My Comfort Dashboard
                                 </span>
 
                                 <h2

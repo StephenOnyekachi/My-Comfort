@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import housesData from "../housesData";
@@ -9,7 +10,7 @@ function AIAgent() {
         {
             id: 1,
             sender: "ai",
-            text: "Hello 👋 I'm your ConnectFlow Homes AI Agent. I can help you find a property based on your budget, location, property type and whether you want to buy or rent.",
+            text: "Hello 👋 I'm your My Comfort AI Agent. I can help you find a property based on your budget, location, property type and whether you want to buy or rent.",
         },
     ]);
 
@@ -209,6 +210,7 @@ function AIAgent() {
             {/* =========================================
                 HERO
             ========================================= */}
+
             <section className="relative flex min-h-[520px] items-center overflow-hidden sm:min-h-[580px]">
 
                 <img
@@ -251,6 +253,7 @@ function AIAgent() {
                         <div className="max-w-4xl">
 
                             {/* LABEL */}
+
                             <div
                                 className="
                                     mb-5
@@ -271,11 +274,12 @@ function AIAgent() {
                                 <i className="fa fa-terminal text-green-400" />
 
                                 <span className="text-sm text-gray-300 sm:text-base">
-                                    ConnectFlow AI
+                                    My Comfort AI
                                 </span>
                             </div>
 
                             {/* TITLE */}
+
                             <h1
                                 className="
                                     bebas-neue
@@ -322,6 +326,7 @@ function AIAgent() {
             {/* =========================================
                 MAIN AI AREA
             ========================================= */}
+
             <section className="px-4 py-8 sm:px-6 sm:py-12 md:px-10">
 
                 <div
@@ -338,6 +343,7 @@ function AIAgent() {
                     {/* =====================================
                         LEFT SIDEBAR
                     ====================================== */}
+
                     <div className="lg:col-span-1">
 
                         <div
@@ -354,6 +360,7 @@ function AIAgent() {
                         >
 
                             {/* AI STATUS */}
+
                             <div className="mb-6 flex items-center gap-3">
 
                                 <div
@@ -403,6 +410,7 @@ function AIAgent() {
                             </div>
 
                             {/* QUICK QUESTIONS */}
+
                             <h4
                                 className="
                                     roboto-condensed-light
@@ -490,6 +498,7 @@ function AIAgent() {
                             </div>
 
                             {/* REQUIREMENTS */}
+
                             <div className="mt-8">
 
                                 <h4
@@ -555,6 +564,7 @@ function AIAgent() {
                     {/* =====================================
                         CHAT
                     ====================================== */}
+
                     <div className="min-w-0 lg:col-span-3">
 
                         <div
@@ -573,6 +583,7 @@ function AIAgent() {
                         >
 
                             {/* CHAT HEADER */}
+
                             <div
                                 className="
                                     flex
@@ -610,7 +621,7 @@ function AIAgent() {
                                     <div className="min-w-0">
 
                                         <h2 className="truncate font-bold">
-                                            ConnectFlow AI
+                                            My Comfort AI
                                         </h2>
 
                                         <p className="text-xs text-green-400 sm:text-sm">
@@ -640,6 +651,7 @@ function AIAgent() {
                             </div>
 
                             {/* MESSAGES */}
+
                             <div
                                 className="
                                     min-h-0
@@ -702,6 +714,7 @@ function AIAgent() {
                                 ))}
 
                                 {/* PROPERTY RECOMMENDATIONS */}
+
                                 {searchData.location && (
 
                                     <div>
@@ -779,6 +792,7 @@ function AIAgent() {
                                                             <span className="line-clamp-2">
                                                                 {house.location}
                                                             </span>
+
                                                         </p>
 
                                                         <p
@@ -830,6 +844,7 @@ function AIAgent() {
                             </div>
 
                             {/* INPUT */}
+
                             <div
                                 className="
                                     shrink-0
@@ -921,7 +936,7 @@ function AIAgent() {
                                         sm:text-xs
                                     "
                                 >
-                                    ConnectFlow AI can help you discover
+                                    My Comfort AI can help you discover
                                     properties based on your preferences.
                                 </p>
 
@@ -938,6 +953,7 @@ function AIAgent() {
             {/* =========================================
                 CTA
             ========================================= */}
+
             <section className="px-4 pb-12 sm:px-6 sm:pb-20 md:px-10">
 
                 <div

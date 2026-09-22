@@ -57,7 +57,6 @@ function Hero() {
                     "
                 ></div>
 
-
                 <div
                     className="
                         relative
@@ -100,11 +99,10 @@ function Hero() {
                             <i className="fa fa-home text-green-400"></i>
 
                             <span className="text-sm sm:text-base text-gray-200">
-                                ConnectFlow Homes
+                                My Comfort Homes
                             </span>
 
                         </div>
-
 
                         {/* MAIN HEADING */}
 
@@ -127,7 +125,6 @@ function Hero() {
                             Find A Home That Fits Your Life.
                         </h1>
 
-
                         <h2
                             className="
                                 roboto-condensed
@@ -148,7 +145,6 @@ function Hero() {
                             Buy, Sell, or Rent With Ease.
                         </h2>
 
-
                         {/* DESCRIPTION */}
 
                         <p
@@ -168,7 +164,6 @@ function Hero() {
                             We'll help you discover properties that match
                             your needs, budget and location.
                         </p>
-
 
                         {/* CTA BUTTONS */}
 
@@ -209,7 +204,6 @@ function Hero() {
                                 Browse Properties
                             </Link>
 
-
                             <Link
                                 to="/sell"
                                 className="
@@ -234,7 +228,6 @@ function Hero() {
                                 <i className="fa fa-upload"></i>
                                 Sell Property
                             </Link>
-
 
                             <Link
                                 to="/rent"
@@ -272,7 +265,6 @@ function Hero() {
 
             </section>
 
-
             {/* =====================================================
                 MAIN CONTENT
             ====================================================== */}
@@ -297,9 +289,8 @@ function Hero() {
 
                         <SectionHeading
                             title="Featured Listings"
-                            description="ConnectFlow Homes connects you to verified houses in Anambra and across Nigeria. No agent wahala."
+                            description="My Comfort Homes connects you to verified houses in Anambra and across Nigeria. No agent wahala."
                         />
-
 
                         <div className="mb-8">
 
@@ -333,7 +324,6 @@ function Hero() {
 
                         </div>
 
-
                         <div
                             className="
                                 grid
@@ -360,7 +350,6 @@ function Hero() {
 
                     </section>
 
-
                     {/* =================================================
                         WHAT WE DO
                     ================================================== */}
@@ -371,7 +360,6 @@ function Hero() {
                             title="What We Do"
                             description="Everything you need to find, sell or rent your next property."
                         />
-
 
                         <div
                             className="
@@ -413,7 +401,6 @@ function Hero() {
 
                     </section>
 
-
                     {/* =================================================
                         WHY US
                     ================================================== */}
@@ -424,7 +411,6 @@ function Hero() {
                             title="Why Us"
                             description="We make finding your next property easier, safer and more transparent."
                         />
-
 
                         <div
                             className="
@@ -472,7 +458,6 @@ function Hero() {
 
                     </section>
 
-
                     {/* =================================================
                         AI AGENT
                     ================================================== */}
@@ -483,7 +468,6 @@ function Hero() {
                             title="Meet Your AI Agent"
                             description="Your personal property assistant is ready to help you find the right home."
                         />
-
 
                         <div
                             className="
@@ -533,7 +517,6 @@ function Hero() {
                                     <i className="fa fa-user text-3xl text-green-400"></i>
                                 </div>
 
-
                                 <div>
 
                                     <h2
@@ -569,7 +552,6 @@ function Hero() {
 
                             </div>
 
-
                             <Link
                                 to="/aiagent"
                                 className="
@@ -603,7 +585,6 @@ function Hero() {
 
                     </section>
 
-
                     {/* =================================================
                         TESTIMONIALS
                     ================================================== */}
@@ -614,7 +595,6 @@ function Hero() {
                             title="What Our Clients Say"
                             description="Hear from people who have used our property services."
                         />
-
 
                         <div
                             className="
@@ -648,7 +628,6 @@ function Hero() {
                         </div>
 
                     </section>
-
 
                     {/* =================================================
                         CTA
@@ -684,7 +663,6 @@ function Hero() {
                             />
 
                             <div className="absolute inset-0 bg-black/70"></div>
-
 
                             <div
                                 className="
@@ -725,7 +703,6 @@ function Hero() {
                                         <i className="fa fa-map-signs text-2xl text-green-400"></i>
                                     </div>
 
-
                                     <div>
 
                                         <h2
@@ -745,7 +722,6 @@ function Hero() {
                                             Ready To Find Your Dream Property?
                                         </h2>
 
-
                                         <p
                                             className="
                                                 roboto-condensed-light
@@ -758,9 +734,8 @@ function Hero() {
                                             "
                                         >
                                             Explore verified properties across
-                                            Nigeria with ConnectFlow Homes.
+                                            Nigeria with My Comfort Homes.
                                         </p>
-
 
                                         <div className="mt-6">
 
@@ -910,7 +885,6 @@ function PropertyCard({ house, onToggleLike }) {
                     "
                 ></div>
 
-
                 {/* STATUS */}
 
                 <div
@@ -947,7 +921,6 @@ function PropertyCard({ house, onToggleLike }) {
                     </span>
 
                 </div>
-
 
                 {/* LIKE */}
 
@@ -995,7 +968,6 @@ function PropertyCard({ house, onToggleLike }) {
 
             </div>
 
-
             {/* CONTENT */}
 
             <div className="flex flex-col flex-1 p-4">
@@ -1012,7 +984,6 @@ function PropertyCard({ house, onToggleLike }) {
                     {house.title}
                 </h3>
 
-
                 {/* LOCATION */}
 
                 <div className="flex items-center mt-2 min-w-0">
@@ -1024,7 +995,6 @@ function PropertyCard({ house, onToggleLike }) {
                     </p>
 
                 </div>
-
 
                 {/* PRICE */}
 
@@ -1046,7 +1016,6 @@ function PropertyCard({ house, onToggleLike }) {
                     </h4>
 
                 </div>
-
 
                 {/* FEATURES */}
 
@@ -1079,7 +1048,6 @@ function PropertyCard({ house, onToggleLike }) {
                     </div>
 
                 </div>
-
 
                 {/* DETAILS */}
 
@@ -1161,7 +1129,6 @@ function ServiceCard({ image, title, description }) {
 
             </div>
 
-
             <div className="p-5">
 
                 <h3
@@ -1180,7 +1147,6 @@ function ServiceCard({ image, title, description }) {
                 >
                     {title}
                 </h3>
-
 
                 <p
                     className="
@@ -1252,7 +1218,6 @@ function WhyCard({ icon, title, description }) {
 
             </div>
 
-
             <h3
                 className="
                     bebas-neue
@@ -1268,7 +1233,6 @@ function WhyCard({ icon, title, description }) {
             >
                 {title}
             </h3>
-
 
             <p
                 className="
@@ -1319,7 +1283,6 @@ function Testimonial({ image, name, date }) {
                 cupiditate.
             </p>
 
-
             <div className="flex items-center mt-6">
 
                 <img
@@ -1338,7 +1301,6 @@ function Testimonial({ image, name, date }) {
                         border-white/10
                     "
                 />
-
 
                 <div className="ml-4 min-w-0">
 
@@ -1366,4 +1328,3 @@ function Testimonial({ image, name, date }) {
 }
 
 export default Hero;
-

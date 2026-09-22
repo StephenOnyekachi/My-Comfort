@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import housesData from "../housesData";
@@ -63,7 +64,7 @@ function Rent() {
                     <div className="max-w-4xl">
 
                         <p className="mb-3 text-xs uppercase tracking-[3px] text-green-400 sm:text-sm sm:tracking-[4px]">
-                            ConnectFlow Homes
+                            My Comfort Homes
                         </p>
 
                         <h1
@@ -98,7 +99,7 @@ function Rent() {
                                 lg:text-2xl
                             "
                         >
-                            ConnectFlow Homes connects you to verified
+                            My Comfort Homes connects you to verified
                             houses in Anambra and across Nigeria.
                             No agent wahala.
                         </p>

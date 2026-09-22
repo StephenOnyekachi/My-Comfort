@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -73,7 +74,7 @@ function AdminAgents() {
 
                         <p className="mt-4 max-w-xl text-sm leading-relaxed text-gray-400 sm:text-base md:text-lg">
                             View, edit and manage all agents registered on
-                            House Agent.
+                            My Comfort.
                         </p>
 
                     </div>
